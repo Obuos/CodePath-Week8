@@ -1,6 +1,6 @@
 # Project 8 - Pentesting Live Targets
 
-Time spent: **X** hours spent in total
+Time spent: **4** hours spent in total
 
 > Objective: Identify vulnerabilities in three different versions of the Globitek website: blue, green, and red.
 
@@ -41,7 +41,7 @@ Vulnerability #1: Cross-Site Request Forgery (CSRF); The CSRF token visible when
 
 GIF: ![](https://github.com/Obuos/CodePath-Week8/blob/master/week8red1.gif)
 
-Vulnerability #2: Insecure Direct Object Reference (IDOR); Given the two hidden users from the Session Hijaking in Blue site, the user pages for these admin only pages can be found by changing the id="" at the end of the URL for the red site only.
+Vulnerability #2: Insecure Direct Object Reference (IDOR); Given the two hidden users from the Session Hijaking in Blue site, the user pages for these admin only pages can be found by changing the id="" at the end of the URL for the red site only. The blue and green site correctly redirects the user back to the salesperson site if the user does not hold the correct permissions. Poor permission checking from red site.
 
 GIF: ![](https://github.com/Obuos/CodePath-Week8/blob/master/week8red2.gif)
 
